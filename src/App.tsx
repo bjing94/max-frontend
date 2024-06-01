@@ -52,7 +52,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(async () => {
       await checkStatus();
-    }, 100);
+    }, 2000);
     setStatusInterval(interval);
   }, [fileName]);
 
